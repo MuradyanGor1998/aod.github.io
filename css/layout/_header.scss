@@ -1,0 +1,40 @@
+.header {
+  background-image: url(#{$path}img/bg.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  height: 604px;
+  background-attachment: fixed;
+}
+
+.nav__ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.dot {
+  background-color: $background-color-6;
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+}
+.nav_bar {
+  padding-top: 35px;
+}
+.nav__ul__li {
+  list-style-type: none;
+}
+.nav__ul__li a {
+  text-decoration: none;
+  font-size: 13px;
+  font-family: $font-lato;
+  color: $background-color-6;
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 1.2;
+}
+.nav__ul__li a:hover {
+  color: #ffffff;
+  text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #53a284,
+    0 0 30px #53a284, 0 0 40px #49ff18, 0 0 55px #49ff18, 0 0 75px #49ff18;
+  color: #ffffff;
+}

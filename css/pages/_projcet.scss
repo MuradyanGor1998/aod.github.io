@@ -1,0 +1,118 @@
+/*  start project  */
+.project {
+  width: 100%;
+  max-width: 1263px;
+  margin: 0 auto;
+}
+.box {
+  display: flex;
+}
+.project_first {
+  height: 532px;
+  width: 420px;
+}
+.project_first_top_figure {
+  width: 210px;
+  height: 266px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.project_first_top_figcaption {
+  background-color: $background-color-3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 80%;
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: 0;
+}
+.project_first_top_figure:hover .project_first_top_figcaption {
+  height: 100%;
+  transition: all 0.5s;
+}
+.project_first_top_figure:hover .figcaption_img {
+  visibility: visible;
+}
+.figcaption_img {
+  visibility: hidden;
+}
+.project_first_top {
+  display: flex;
+}
+.img_project_1 {
+  width: 100%;
+  height: 266px;
+}
+.img_project_2 {
+  width: 100%;
+  height: 266px;
+}
+
+.project_first_botoom_figure {
+  width: 420px;
+  height: 266px;
+  position: relative;
+}
+.project_first_botoom_figure:hover .project_first_top_figcaption {
+  height: 100%;
+  transition: all 0.5s;
+}
+.project_first_botoom_figure:hover .figcaption_img {
+  visibility: visible;
+}
+
+.project_center {
+  height: 532px;
+  width: 420px;
+  display: flex;
+}
+.img_center {
+  width: 100%;
+  height: 534px;
+}
+.center_figure {
+  width: 210px;
+  height: 532px;
+  position: relative;
+  @include flex-center;
+}
+
+.center_figure:hover .project_first_top_figcaption {
+  height: 100%;
+  transition: all 0.5s;
+}
+.center_figure:hover .figcaption_img {
+  visibility: visible;
+}
+.shop {
+  background-color: $background-color-5;
+  height: 200px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.shop_button {
+  text-decoration: none;
+  padding: 20px 60px;
+  border: 2px solid $background-color;
+  font-size: 14px;
+  font-family: $font-lato;
+  color: $background-color;
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 1.2;
+  text-align: center;
+}
+.shop_button:hover {
+  background-color: $background-color-4;
+  border: 2px solid $background-color-4;
+}
+// end projcet

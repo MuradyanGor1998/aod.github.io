@@ -1,0 +1,54 @@
+// start contact
+#contatc {
+  width: 100%;
+  height: 470px;
+}
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  height: 470px;
+}
+.log_in_figure {
+  margin-bottom: 40px;
+}
+.log_in_a {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 40px;
+}
+.log_in_img {
+  width: 95px;
+}
+.figcaption {
+  font-size: 24px;
+  font-family: $font-myriad;
+  color: $text-color-2;
+  line-height: 1.417;
+  text-align: center;
+}
+.form {
+  display: block;
+}
+.enter {
+  width: 400px;
+  height: 66px;
+  outline: none;
+  border: 1px solid $text-color-3;
+  border-radius: 20px;
+  padding-left: 20px;
+}
+.enter::placeholder {
+  color: $text-color-3;
+}
+.submit {
+  height: 66px;
+  width: 66px;
+  border-radius: 20px;
+  background-color: $background-color-4;
+  border: unset;
+  color: $background-color;
+}
+// end contact

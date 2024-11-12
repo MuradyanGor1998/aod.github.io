@@ -1,0 +1,147 @@
+html {
+  font-size: 18px;
+}
+.section_title {
+  font-size: 18px;
+  margin: 25px 0;
+}
+
+.section_p {
+  font-size: 18px;
+}
+
+.nav__ul__li a {
+  font-size: 12px;
+}
+
+.header {
+  height: 310px;
+}
+.container {
+  width: 1024px;
+  padding: 0 20px;
+}
+
+.nav__ul {
+  padding: 10px 0;
+}
+
+.nav__ul__li a {
+  padding: 5px;
+}
+// start company
+.section_company {
+    display: block;
+}
+.company {
+  display: block;
+}
+.company_figure {
+  width: 1024px;
+  height: 250px;
+}
+.company_figure_img {
+  width: 100%;
+}
+// start olivia
+.olivia {
+  width: 100%;
+  height: 100%;
+}
+.olivia_about {
+  width: 1024px;
+  height: 100%;
+}
+
+.olivia_title,
+.olivia_p {
+  font-size: 18px;
+}
+
+.olivia_figure {
+  width: 100%;
+  height: 287px;
+}
+.olivia_figure_img {
+  width: 1024px;
+  height: 100%;
+}
+// start hulot
+.hulot {
+  display: block;
+  margin-bottom: 15px;
+}
+.hulot_box_figure {
+  width: 1024px;
+}
+.hulot_box_img {
+  width: 1024px;
+  height: 100%;
+}
+
+.box {
+  display: flex;
+}
+.center_figure {
+  width: auto;
+}
+// start shopt
+.shop_button {
+  font-size: 12px;
+  padding: 12px 30px;
+}
+//
+.enter {
+  width: 100%;
+  margin-bottom: 7px;
+}
+
+.submit {
+  width: 100%;
+  height: 50px;
+}
+
+.project_first,
+.project_center {
+  width: 100%;
+}
+
+.project_first_top_figure,
+.project_first_botoom_figure {
+  width: 100%;
+  height: auto;
+}
+
+/* Adjusting specific project sections */
+.project_first_top_figure,
+.project_first_botoom_figure,
+.project_center {
+  width: 100%;
+  height: auto;
+}
+
+.project_first_top_figure,
+.project_first_botoom_figure {
+  height: auto;
+}
+
+// start footer
+.footer_box {
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 20px;
+}
+
+.footer_title {
+  font-size: 18px;
+}
+
+.footer_p {
+  font-size: 18px;
+}
+
+.footer_figcaption {
+  font-size: 14px;
+}
+//   end footer

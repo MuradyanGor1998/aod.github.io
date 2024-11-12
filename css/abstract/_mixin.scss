@@ -1,0 +1,10 @@
+//mixin
+@mixin flex-center {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+@mixin fz_col() {
+  // font-size: 17px;
+  // color: #FFFFFF;
+}

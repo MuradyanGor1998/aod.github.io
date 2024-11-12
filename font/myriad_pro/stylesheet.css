@@ -1,0 +1,52 @@
+@font-face {
+    font-family: 'Lato';
+    src: url('Lato-Regular.eot');
+    src: url('Lato-Regular.eot?#iefix') format('embedded-opentype'),
+        url('Lato-Regular.woff2') format('woff2'),
+        url('Lato-Regular.woff') format('woff'),
+        url('Lato-Regular.ttf') format('truetype'),
+        url('Lato-Regular.svg#Lato-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Lato';
+    src: url('Lato-Bold.eot');
+    src: url('Lato-Bold.eot?#iefix') format('embedded-opentype'),
+        url('Lato-Bold.woff2') format('woff2'),
+        url('Lato-Bold.woff') format('woff'),
+        url('Lato-Bold.ttf') format('truetype'),
+        url('Lato-Bold.svg#Lato-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Myriad Pro';
+    src: url('MyriadPro-Bold.eot');
+    src: url('MyriadPro-Bold.eot?#iefix') format('embedded-opentype'),
+        url('MyriadPro-Bold.woff2') format('woff2'),
+        url('MyriadPro-Bold.woff') format('woff'),
+        url('MyriadPro-Bold.ttf') format('truetype'),
+        url('MyriadPro-Bold.svg#MyriadPro-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Myriad Pro';
+    src: url('MyriadPro-Regular.eot');
+    src: url('MyriadPro-Regular.eot?#iefix') format('embedded-opentype'),
+        url('MyriadPro-Regular.woff2') format('woff2'),
+        url('MyriadPro-Regular.woff') format('woff'),
+        url('MyriadPro-Regular.ttf') format('truetype'),
+        url('MyriadPro-Regular.svg#MyriadPro-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
